@@ -4,31 +4,109 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Privacy Policy — Bulk WebP Converter</title>
+
   <style>
-    :root{--bg:#0f1720;--card:#0b1220;--text:#e6eef8;--muted:#9fb0c8;--accent:#3db1ff}
-    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0;background:linear-gradient(180deg,#071027 0%, #071827 100%);color:var(--text);line-height:1.6}
-    .container{max-width:900px;margin:48px auto;padding:32px;background:rgba(255,255,255,0.02);border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6)}
-    h1{margin:0 0 8px;font-size:28px}
-    p.lead{color:var(--muted);margin-top:0}
-    h2{color:var(--accent);margin-top:28px}
-    ul{margin-top:8px}
-    code{background:rgba(255,255,255,0.03);padding:2px 6px;border-radius:6px;font-size:0.95em}
+    :root{
+      --bg:#f7f9fc;
+      --card:#ffffff;
+      --text:#1a2433;
+      --muted:#5b6b7f;
+      --accent:#2563eb;
+      --border:#e6eaf0;
+    }
+
+    body{
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.6;
+    }
+
+    .container{
+      max-width:900px;
+      margin:48px auto;
+      padding:32px;
+      background:var(--card);
+      border-radius:12px;
+      border:1px solid var(--border);
+      box-shadow:0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    h1{
+      margin:0 0 8px;
+      font-size:28px;
+    }
+
+    p.lead{
+      color:var(--muted);
+      margin-top:0;
+    }
+
+    h2{
+      color:var(--accent);
+      margin-top:28px;
+    }
+
+    ul{
+      margin-top:8px;
+    }
+
+    code{
+      background:#f1f5f9;
+      padding:2px 6px;
+      border-radius:6px;
+      font-size:0.95em;
+    }
+
     footer{
       margin-top:32px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size:0.9em;color:var(--muted)}
-    a{color:var(--accent);text-decoration:none}
-    .meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
-    .meta span{background:rgba(255,255,255,0.02);padding:6px 10px;border-radius:8px;color:var(--muted)}
-    @media (max-width:640px){.container{margin:16px;padding:20px}} 
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:0.9em;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+      padding-top:16px;
+    }
+
+    a{
+      color:var(--accent);
+      text-decoration:none;
+    }
+
+    .meta{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:12px;
+    }
+
+    .meta span{
+      background:#f8fafc;
+      padding:6px 10px;
+      border-radius:8px;
+      color:var(--muted);
+      border:1px solid var(--border);
+    }
+
+    @media (max-width:640px){
+      .container{
+        margin:16px;
+        padding:20px;
+      }
+    }
   </style>
 </head>
+
 <body>
   <main class="container" role="main">
+
     <h1>Privacy Policy</h1>
-    <p class="lead">This Privacy Policy explains how the Bulk WebP Converter extension handles your information. We wrote it in simple language so it’s clear and easy to understand.</p>
+
+    <p class="lead">
+      This Privacy Policy explains how the Bulk WebP Converter extension handles your information. We wrote it in simple language so it’s clear and easy to understand.
+    </p>
 
     <div class="meta">
       <span>Product: Bulk WebP Converter</span>
@@ -36,10 +114,13 @@
     </div>
 
     <h2>What data we collect</h2>
-    <p>We do not collect, store, or share any personal information. Bulk WebP Converter processes all images directly in your browser. None of your files, preferences, or activities are ever uploaded to external servers.</p>
+    <p>
+      We do not collect, store, or share any personal information. Bulk WebP Converter processes all images directly in your browser. None of your files, preferences, or activities are ever uploaded to external servers.
+    </p>
 
     <h2>Permissions and why we need them</h2>
     <p>The extension uses only the minimal permissions required for its features:</p>
+
     <ul>
       <li><strong>Downloads</strong> — required to save converted images or ZIP archives to your computer.</li>
       <li><strong>Storage</strong> — used to remember simple settings such as your preferred quality level or resize options. This data remains only in your browser.</li>
@@ -47,36 +128,54 @@
     </ul>
 
     <h2>How the extension works</h2>
-    <p>Bulk WebP Converter allows you to drag and drop images into the extension, convert them to WebP format, and download them individually or as a ZIP file. All processing is handled locally within your browser, ensuring full privacy.</p>
+    <p>
+      Bulk WebP Converter allows you to drag and drop images into the extension, convert them to WebP format, and download them individually or as a ZIP file. All processing is handled locally within your browser, ensuring full privacy.
+    </p>
 
     <h2>Third-party services</h2>
-    <p>This extension does not use analytics, ads, or tracking services. No third-party servers are involved in its operation.</p>
+    <p>
+      This extension does not use analytics, ads, or tracking services. No third-party servers are involved in its operation.
+    </p>
 
     <h2>Cookies and local storage</h2>
-    <p>Bulk WebP Converter does not use cookies. It may use <code>chrome.storage</code> to save your quality preferences or resizing choices. This information is stored only in your browser and never transmitted elsewhere.</p>
+    <p>
+      Bulk WebP Converter does not use cookies. It may use <code>chrome.storage</code> to save your quality preferences or resizing choices. This information is stored only in your browser and never transmitted elsewhere.
+    </p>
 
     <h2>Data retention</h2>
-    <p>Since no data is collected externally, nothing is stored outside of your browser. Any preferences you save remain until you uninstall the extension or clear your browser data.</p>
+    <p>
+      Since no data is collected externally, nothing is stored outside of your browser. Any preferences you save remain until you uninstall the extension or clear your browser data.
+    </p>
 
     <h2>Security</h2>
-    <p>All processing happens within Chrome’s secure extension environment. Bulk WebP Converter does not execute remote code, ensuring your images never leave your device. Updates are delivered only through the official Chrome Web Store.</p>
+    <p>
+      All processing happens within Chrome’s secure extension environment. Bulk WebP Converter does not execute remote code, ensuring your images never leave your device. Updates are delivered only through the official Chrome Web Store.
+    </p>
 
     <h2>Your rights</h2>
-    <p>You are in full control. You can uninstall the extension at any time. If you have privacy-related questions or requests, please contact us at the email provided below.</p>
+    <p>
+      You are in full control. You can uninstall the extension at any time. If you have privacy-related questions or requests, please contact us at the email provided below.
+    </p>
 
     <h2>Children</h2>
-    <p>This extension is a general-use tool and is not directed at children under 13. We do not knowingly collect any data from children.</p>
+    <p>
+      This extension is a general-use tool and is not directed at children under 13. We do not knowingly collect any data from children.
+    </p>
 
     <h2>Changes to this policy</h2>
-    <p>We may update this Privacy Policy from time to time. If changes are made, the updated version will be posted here with a revised effective date.</p>
+    <p>
+      We may update this Privacy Policy from time to time. If changes are made, the updated version will be posted here with a revised effective date.
+    </p>
 
     <h2>Contact</h2>
     <p>If you have questions about this Privacy Policy or need assistance, please contact:</p>
+
     <p><a href="mailto:mateen8325@gmail.com">mateen8325@gmail.com</a></p>
 
     <footer>
       <p>© 2025 Bulk WebP Converter by Abdul Mateen. All rights reserved.</p>
     </footer>
+
   </main>
 </body>
 </html>
